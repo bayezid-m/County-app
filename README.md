@@ -4,10 +4,12 @@ Day 1:
 2. fetch reguired data in homepage.
 3. Use slice to have limited data.
 4. Use pagination 
+
 Day2:
 1. creating second page for individual country info.
 2. passing country name from home page.
 3. fetch url for specific country.
+
 day3:
 1. stying homepage in table.
 2. stying with bootstrap.
