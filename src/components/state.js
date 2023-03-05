@@ -26,7 +26,7 @@ export default function Mypage() {
     let ind = countryInfo.independent;
     let letter = data.charAt(0); 
 
-    const myContent = "The official name of this country is" + countryInfo.common + ". It shares border with " + (countryInfo.borders) +".";
+    const myContent = "The official name of this country is " + countryInfo.common + ". It shares border with " + (countryInfo.borders) +".";
     const limit = 0;
     const [isExpanded, setIsExpanded] = useState(false);
   const toggleIsExpanded = () => setIsExpanded(!isExpanded);
@@ -43,7 +43,7 @@ export default function Mypage() {
         </div>
         </div>
         <img className='image2' src={countryInfo.image} alt=" "></img>
-        <p className='text2'>This country belongs to {countryInfo.region} region and {countryInfo.subregion} sub-region. Location at the {countryInfo.lat} N and {countryInfo.lng} W, this country hase population of {countryInfo.population}. It's {ind===true?"an independent country" : "a non independent country"}, according to the CIA World Factbook. {displayContent}</p>
+        <p className='text2'>This country belongs to {countryInfo.region} region and {countryInfo.subregion} sub-region. Location at the {countryInfo.lat} N and {countryInfo.lng} W, this country has population of {countryInfo.population}. It's {ind===true?"an independent country" : "a non independent country"}, according to the CIA World Factbook. {displayContent}</p>
         <div className='footer'>
             <div className='subfooter'>
             <Link to='/'> <button className='inbutton'><IoIosArrowBack/></button></Link>
